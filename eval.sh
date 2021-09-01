@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 python3 run.py \
+--model_type $4 \
+--task_name $6 \
+--model_name_or_path $5 \
+--do_eval \
+--data_dir $7 \
+--max_seq_length $8 \
+--warmup_ratio $9 \
+--output_dir $5 \
+--per_gpu_eval_batch_size=128 \
+--per_gpu_train_batch_size=$3 \
+--gradient_accumulation_steps $1 \
+--learning_rate $2
