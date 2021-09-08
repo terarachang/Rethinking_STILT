@@ -1,12 +1,13 @@
 ## Rethinking Why Intermediate-Task Fine-Tuning Works
-*RTX3090*
 
 ![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg?style=plastic)
 ![PyTorch 1.7.1](https://img.shields.io/badge/pytorch-1.7.1-green.svg?style=plastic)
 
+*RTX3090*
+
 This repository contains the official PyTorch implementation of the following paper:
 
-> **Rethinking Why Intermediate-Task Fine-Tuning Works**<br>
+> **Rethinking Why Intermediate-Task Fine-Tuning Works (Findings of EMNLP 2021)**<br>
 > Ting-Yun Chang and Chi-Jen Lu<br>
 
 > https: https://arxiv.org/pdf/2108.11696.pdf
