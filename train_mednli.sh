@@ -32,7 +32,7 @@ function train {
 }
 
 ckpt_arr=("roberta-large" "roberta_hella-p" "roberta_hella" "roberta_gpt2")
-seed_arr=(12)
+seed_arr=(12 42)
 lr_arr=(5e-6 1e-5 2e-5)
 wup_arr=(0 0.2)
 bs_arr=(32 16 8)
